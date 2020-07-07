@@ -22,16 +22,6 @@
 
 
 
-.block{
-  border:3px solid green;
-  height: 300px;
-  width:200px;
-}
-
-
-
-
-
 @media (min-width:600px){
   .col-sm-1 {width: 8.33%;}
   .col-sm-2 {width: 16.66%;}
@@ -106,12 +96,19 @@
   background-position-y: 50px;
    
 }
+
+.body{
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
 .second-layer{
   position:absolute;
   height: 100%;
   width: 100%;
   background-color: #000;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 ul{
@@ -142,7 +139,7 @@ li a{
 }
 .social li{
  
-  display :block
+  display :block;
 }
 
 .head-text{
@@ -156,4 +153,41 @@ position: absolute;
 }
 h1,h3{
   text-align: center;
+}
+
+.info p{
+  text-align: center;
+  margin-top: 8vh;
+}
+
+.body-img{
+  margin-right: 20vh;;
+}
+
+.body-img ul{
+  position: absolute;
+  margin-top: 20vh;
+}
+
+.body-img li{
+  display: inline;
+}
+
+.body-img img{
+  width: 200px;
+  height: 200px;
+}
+
+.body-second-info {
+  background-color: #ccc;
+}
+
+.body-second-info h2{
+  text-align: center;
+  margin-top: 100vh;
+}
+
+.second-info p{
+  text-align: center;
+  margin-top: 10vh;
 }
