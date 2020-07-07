@@ -89,7 +89,7 @@
   position: relative;
  
   
-  background-image: url('img/—Pngtree—character woman portrait avatar watercolor_5148107.png');
+  background-image: url('../img/—Pngtree—character woman portrait avatar watercolor_5148107.png');
   background-repeat: no-repeat;
   
   background-position-x: right;
@@ -101,14 +101,14 @@
   position:absolute;
   height: 100%;
   width: 100%;
-  background-color: #fff;
+  background-color: #f3d4d4;
 }
 .second-layer{
   position:absolute;
   height: 100%;
   width: 100%;
   background-color: #000;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 ul{
@@ -145,7 +145,7 @@ li a{
 .head-text{
   
 position: absolute;
-  color: #fff;
+  color: #f3d4d4;
 
   font-size:15px;
   top:45vh;
@@ -161,33 +161,32 @@ h1,h3{
 }
 
 .body-img{
-  margin-right: 20vh;;
-}
-
-.body-img ul{
-  position: absolute;
-  margin-top: 20vh;
-}
-
-.body-img li{
-  display: inline;
+  display: inline-block;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 6vh;
 }
 
 .body-img img{
-  width: 200px;
-  height: 200px;
+  width: 60%;
+
 }
 
-.body-second-info {
-  background-color: #ccc;
+.body-info{
+  margin-right: 0;
+  margin-left: 0;
+  background-color: #f0e9e9;
+  margin-top: 50vh;
 }
 
-.body-second-info h2{
+
+.body-info h1,p,button{
+
   text-align: center;
-  margin-top: 100vh;
+ 
 }
 
-.second-info p{
-  text-align: center;
-  margin-top: 10vh;
-}
+
+
+
+
